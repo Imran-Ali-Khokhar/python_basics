@@ -21,3 +21,10 @@ print(names)
 popped_names = names.pop(0)
 print(names)
 print(popped_names)
+
+#sorting a list
+names.sort()
+print(names)
+
+#finding length of the list
+print("There are "+str(len(names))+" friends of mine")
